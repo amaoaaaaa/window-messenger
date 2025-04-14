@@ -11,7 +11,15 @@
         "eventbus",
         "typescript"
     ],
-    "author": "amao",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amaoaaaaa/window-messenger.git"
+    },
+    "bugs": {
+        "url": "https://github.com/amaoaaaaa/window-messenger/issues"
+    },
+    "homepage": "https://github.com/amaoaaaaa/window-messenger#readme",
+    "author": "amaoaaaaa",
     "license": "MIT",
     "scripts": {
         "build": "rollup -c && tsc --emitDeclarationOnly",
