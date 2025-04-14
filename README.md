@@ -1,5 +1,5 @@
 
-# @m2inf/window-messenger
+# @amaoaaaaa/window-messenger
 
 > 基于 `window.postMessage` 的类型安全、事件驱动的通信库，用于 iframe 和窗口之间的通信。
 
@@ -15,13 +15,13 @@
 ## 📦 安装
 
 ```bash
-npm install @m2inf/window-messenger
+npm install @amaoaaaaa/window-messenger
 ```
 
 或者
 
 ```bash
-yarn add @m2inf/window-messenger
+yarn add @amaoaaaaa/window-messenger
 ```
 
 ## 🔧 使用
@@ -39,7 +39,7 @@ interface MyEvents {
 ### 父页面
 
 ```ts
-import { WindowMessenger } from '@m2inf/window-messenger';
+import { WindowMessenger } from '@amaoaaaaa/window-messenger';
 
 const messenger = new WindowMessenger<MyEvents>(iframeRef.value!.contentWindow!);
 
@@ -56,7 +56,7 @@ messenger.on('ready', ({ time }) => {
 ### 子页面
 
 ```ts
-import { WindowMessenger } from '@m2inf/window-messenger';
+import { WindowMessenger } from '@amaoaaaaa/window-messenger';
 
 const messenger = new WindowMessenger<MyEvents>(window.parent);
 

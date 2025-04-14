@@ -1,5 +1,5 @@
 {
-    "name": "@m2inf/window-messenger",
+    "name": "@amaoaaaaa/window-messenger",
     "version": "1.0.7",
     "description": "A type-safe window.postMessage communication library",
     "main": "dist/index.cjs",
