@@ -14,8 +14,14 @@
     "author": "amao",
     "license": "MIT",
     "scripts": {
-        "build": "rollup -c && tsc --emitDeclarationOnly"
+        "build": "rollup -c && tsc --emitDeclarationOnly",
+        "publish": "npm run build && npm version patch && npm publish"
     },
+    "files": [
+        "dist/",
+        "README.md",
+        "LICENSE"
+    ],
     "devDependencies": {
         "@rollup/plugin-typescript": "^12.1.2",
         "@types/node": "^22.14.1",
