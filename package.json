@@ -1,6 +1,6 @@
 {
-    "name": "@amao/window-messenger",
-    "version": "1.0.4",
+    "name": "window-messenger",
+    "version": "1.0.0",
     "description": "A type-safe window.postMessage communication library",
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
