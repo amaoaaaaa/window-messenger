@@ -23,7 +23,8 @@
     "license": "MIT",
     "scripts": {
         "build": "rollup -c && tsc --emitDeclarationOnly",
-        "publish": "npm run build && npm version patch && npm publish --access public"
+        "version-patch": "npm version patch",
+        "publish": "npm publish --access public"
     },
     "files": [
         "dist/",
