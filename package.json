@@ -1,6 +1,6 @@
 {
     "name": "@m2inf/window-messenger",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A type-safe window.postMessage communication library",
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
