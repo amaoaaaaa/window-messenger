@@ -1,12 +1,16 @@
 {
     "compilerOptions": {
-        "target": "ES2020",
-        "module": "NodeNext",
-        "declaration": true,
-        "emitDeclarationOnly": true,
-        "outDir": "dist",
-        "strict": true,
-        "esModuleInterop": true
+        "target": "ES2020", // 编译目标为 ES2020
+        "module": "ESNext", // 使用 ESNext 模块规范
+        "moduleResolution": "Node", // 模块解析为 Node 风格
+        "esModuleInterop": true, // 开启与 CommonJS 模块的互操作性
+        "declaration": true, // 生成声明文件
+        "outDir": "./dist", // 输出目录
+        "rootDir": "./src", // 源文件目录
+        "allowSyntheticDefaultImports": true,
+        "strict": true, // 开启严格模式
+        "skipLibCheck": true // 跳过库文件检查
     },
-    "include": ["src"]
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
 }
